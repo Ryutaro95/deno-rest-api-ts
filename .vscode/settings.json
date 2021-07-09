@@ -1,0 +1,12 @@
+{
+    "deno.enable": true,
+    "deno.lint": true,
+    "deno.unstable": true,
+    "deno.suggest.imports.hosts": {
+        "https://deno.land": false
+    },
+    "editor.detectIndentation": false,
+    "prettier.tabWidth": 4,
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true
+}

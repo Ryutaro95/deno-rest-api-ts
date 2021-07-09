@@ -1,0 +1,31 @@
+GET http://localhost:8000/
+
+###
+
+GET http://localhost:8000/todos/
+content-type: application/json
+
+###
+
+GET http://localhost:8000/todos/fjlaskdjfalfjaslfjalkfjasfljaslA
+
+###
+
+POST http://localhost:8000/todos/
+content-type: application/json
+
+{
+    "title": "Petting Deno"
+}
+
+###
+PUT http://localhost:8000/todos/<id>
+content-type: application/json
+
+{
+    "done": true
+}
+
+###
+
+DELETE http://localhost:8000/todos/fjlaskdjfalfjaslfjalkfjasfljaslA
